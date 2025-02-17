@@ -15,13 +15,19 @@
     <nav class="main-nav">
       <div class="main-nav__wrapper">
         <a class="main-nav-logo">
-          <img src="#" alt="Логотип Drink2Go">
+          <picture>
+            <source width="170" height="36" type="image/svg+xml" media="(min-width: 1440px)"
+              srcset="images/logo_desktop.svg">
+            <source width="82" height="36" type="image/svg+xml" media="(min-width: 768px)"
+              srcset="images/logo_tablet.svg">
+            <img src="images/logo_mobile.svg" width="32" height="36" alt="Логотип Drink2Go">
+          </picture>
         </a>
         <h1 class="main-nav__title">Интернет-магазин кофейных напитков</h1>
         <ul class="main-nav__list user-list">
           <li class="user-list__item">
             <a class="user-list__item-link">
-              <span>Войтиии</span>
+              <span>Войти</span>
             </a>
           </li>
           <li class="user-list__item">
@@ -90,7 +96,7 @@
               <source width="476" height="476" type="image/png" media="(min-width: 768px)"
                 srcset="images/lavander_latte_tablet@1x.png 1x, images/lavander_latte_tablet@2x.png 2x">
               <img class="slider-list__item-image" src="images/lavander_latte_mobile@1x.png"
-                srcset="images/lavander_latte_mobile@2x.png 2x" width="600" height="600" alt="Lavender Latte">
+                srcset="images/lavander_latte_mobile@2x.png 2x" width="280" height="280" alt="Lavender Latte">
             </picture>
             <span class="slider-list__item-new">Новинка!</span>
             <p class="slider-list__item-description">Невероятное сочетание перуанской высокогорной арабики с молоком
@@ -108,7 +114,7 @@
               <source width="476" height="476" type="image/png" media="(min-width: 768px)"
                 srcset="images/triple_expresso_tablet@1x.png 1x, images/triple_expresso_tablet@2x.png 2x">
               <img class="slider-list__item-image" src="images/triple_expresso_mobile@1x.png"
-                srcset="images/triple_expresso_mobile@2x.png 2x" width="600" height="600" alt="Triple Expresso">
+                srcset="images/triple_expresso_mobile@2x.png 2x" width="280" height="280" alt="Triple Expresso">
             </picture>
             <span class="slider-list__item-new">Новинка!</span>
             <p class="slider-list__item-description">Мощнее укола адреналина, чернее самой тёмной ночи, этот тройной
@@ -238,10 +244,11 @@
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                srcset="images/white_can_desktop@1x.png 1x, images/white_can_desktop@2x.png 2x">
-              <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                srcset="images/white_can_tablet@1x.png 1x, images/white_can_tablet@2x.png 2x">
-                <img class="item__link-image" src="images/white_can_mobile@1x.png" width="130" height="188" alt="Decaf Flat White">
+                  srcset="images/white_can_desktop@1x.png 1x, images/white_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/white_can_tablet@1x.png 1x, images/white_can_tablet@2x.png 2x">
+                <img class="item__link-image" src="images/white_can_mobile@1x.png" width="130" height="188"
+                  alt="Decaf Flat White">
               </picture>
             </a>
             <a class="item__title" href="#">
@@ -259,9 +266,9 @@
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                srcset="images/purple_can_desktop@1x.png 1x, images/purple_can_desktop@2x.png 2x">
-              <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                srcset="images/purple_can_tablet@1x.png 1x, images/purple_can_tablet@2x.png 2x">
+                  srcset="images/purple_can_desktop@1x.png 1x, images/purple_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/purple_can_tablet@1x.png 1x, images/purple_can_tablet@2x.png 2x">
                 <img class="item__link-image" src="images/purple_can_mobile@1x.png" alt="Decaf Flat White">
               </picture>
             </a>
@@ -280,9 +287,9 @@
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                srcset="images/black_can_desktop@1x.png 1x, images/black_can_desktop@2x.png 2x">
-              <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                srcset="images/black_can_tablet@1x.png 1x, images/black_can_tablet@2x.png 2x">
+                  srcset="images/black_can_desktop@1x.png 1x, images/black_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/black_can_tablet@1x.png 1x, images/black_can_tablet@2x.png 2x">
                 <img class="item__link-image" src="images/black_can_mobile@1x.png" alt="Decaf Flat White">
               </picture>
             </a>
@@ -301,9 +308,9 @@
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                srcset="images/pink_can_desktop@1x.png 1x, images/pink_can_desktop@2x.png 2x">
-              <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                srcset="images/pink_can_tablet@1x.png 1x, images/pink_can_tablet@2x.png 2x">
+                  srcset="images/pink_can_desktop@1x.png 1x, images/pink_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/pink_can_tablet@1x.png 1x, images/pink_can_tablet@2x.png 2x">
                 <img class="item__link-image" src="images/pink_can_mobile@1x.png" alt="Decaf Flat White">
               </picture>
             </a>
@@ -322,9 +329,9 @@
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                srcset="images/brown_can_desktop@1x.png 1x, images/brown_can_desktop@2x.png 2x">
-              <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                srcset="images/brown_can_tablet@1x.png 1x, images/brown_can_tablet@2x.png 2x">
+                  srcset="images/brown_can_desktop@1x.png 1x, images/brown_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/brown_can_tablet@1x.png 1x, images/brown_can_tablet@2x.png 2x">
                 <img class="item__link-image" src="images/brown_can_mobile@1x.png" alt="Decaf Flat White">
               </picture>
             </a>
@@ -343,9 +350,9 @@
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                srcset="images/milk_can_desktop@1x.png 1x, images/milk_can_desktop@2x.png 2x">
-              <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                srcset="images/milk_can_tablet@1x.png 1x, images/milk_can_tablet@2x.png 2x">
+                  srcset="images/milk_can_desktop@1x.png 1x, images/milk_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/milk_can_tablet@1x.png 1x, images/milk_can_tablet@2x.png 2x">
                 <img class="item__link-image" src="images/milk_can_mobile@1x.png" alt="Decaf Flat White">
               </picture>
             </a>
@@ -395,10 +402,10 @@
       <div class="map" id="map">
         <picture>
           <source width="1440" height="540" type="image/jpeg" media="(min-width: 1440px)"
-                srcset="images/map_desktop@1x.jpg 1x, images/map_desktop@2x.jpg 2x">
-              <source width="768" height="480" type="image/jpeg" media="(min-width: 768px)"
-                srcset="images/map_tablet@1x.jpg 1x, images/map_tablet@2x.jpg 2x">
-        <img src="images/map_mobile@1x.jpg" width="320" height="420" alt="Карта">
+            srcset="images/map_desktop@1x.jpg 1x, images/map_desktop@2x.jpg 2x">
+          <source width="768" height="480" type="image/jpeg" media="(min-width: 768px)"
+            srcset="images/map_tablet@1x.jpg 1x, images/map_tablet@2x.jpg 2x">
+          <img src="images/map_mobile@1x.jpg" width="320" height="420" alt="Карта">
         </picture>
       </div>
     </section>
@@ -408,7 +415,12 @@
 
     <div class="footer__inner">
       <a class="footer__inner__logo" href="#">
-        <img class="footer__inner__logo-image" src="#" alt="Логотип Drink2Go">
+        <picture>
+          <source width="170" height="36" type="image/svg+xml" media="(min-width: 768px)"
+            srcset="images/logo_desktop.svg">
+          <img class="footer__inner__logo-image" src="images/logo_tablet.svg" width="82" height="36"
+            alt="Логотип Drink2Go">
+        </picture>
       </a>
       <p class="footer__inner-title">Интернет-магазин кофейных напитков</p>
     </div>
