@@ -1,0 +1,41 @@
+.price {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 20px;
+  padding-top: 22px;
+}
+
+.price__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.price-old {
+  font-family: $montserrat-regular;
+  font-size: 16px;
+  line-height: 32px;
+  color: $base-primary;
+  text-decoration: line-through;
+}
+
+.price-new {
+  font-family: $montserrat-semi-bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: $base-black;
+}
+
+.price__button {
+  font-family: $montserrat-regular;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 20px;
+  border: 0;
+  border-radius: 4px;
+  background-color: $base-primary;
+  color: $base-white;
+}

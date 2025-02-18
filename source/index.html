@@ -5,10 +5,10 @@
   <meta charset="UTF-8">
   <title>Drink2Go</title>
   <link rel="icon" href="/favicon.ico">
-  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96"/>
-  <link rel="icon" type="image/svg+xml" href="favicons/favicon.svg"/>
-  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png"/>
-  <link rel="manifest" href="favicons/manifest.webmanifest"/>
+  <link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicons/favicon.svg" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png" />
+  <link rel="manifest" href="favicons/manifest.webmanifest" />
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="preload" href="#" type="font/woff2" as="font">
   <link rel="stylesheet" href="styles/styles.css">
@@ -32,18 +32,18 @@
         <ul class="main-nav__list user-list">
           <li class="user-list__item">
             <a class="user-list__item-link">
-              <svg class="user-list_item-icon" width="16" heigth="16">
+              <svg class="user-list__item-icon" width="16" height="16">
                 <use xlink:href="/icons/stack.svg#user">
               </svg>
-              <span>Войти</span>
+              <span class="user-list__item-enter">Войти</span>
             </a>
           </li>
           <li class="user-list__item">
             <a class="user-list__item-link">
-              <svg class="user-list_item-icon" width="16" heigth="16">
+              <svg class="user-list__item-icon" width="16" height="16">
                 <use xlink:href="/icons/stack.svg#basket">
               </svg>
-              <span class="user-list__item-text">Корзина</span>
+              <span class="user-list__item-basket">Корзина</span>
             </a>
           </li>
         </ul>
@@ -92,13 +92,17 @@
                 srcset="images/decaf_flat_white_mobile@2x.png 2x" width="280" height="280" alt="Decaf Flat White">
             </picture>
             <span class="slider-list__item-new">Новинка!</span>
-            <p class="slider-list__item-description">Свежесваренный кофе без кофеина из Эфиопии с натуральным фермерским
-              молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
+            <h1 class="slider-list__item-header">Декаф Флэт Уайт</h1>
+            <p class="slider-list__item-description">Свежесваренный кофе без кофеина<br>из Эфиопии с
+              натуральным<br>фермерским
+              молоком — то, что<br>нужно для расслабления после<br>тяжёлого рабочего дня</p>
             <div class="slider-list__item-price price">
-              <span class="price-old">295₽</span>
-              <span class="price-new">225₽</span>
+              <div class="price__wrapper">
+                <span class="price-old">295₽</span>
+                <span class="price-new">225₽</span>
+              </div>
+              <a href="#" class="price__button">Заказать</a>
             </div>
-            <a href="#" class="slider__button">Заказать</a>
           </li>
           <li class="slider-list__item">
             <picture>
@@ -113,10 +117,12 @@
             <p class="slider-list__item-description">Невероятное сочетание перуанской высокогорной арабики с молоком
               ламы и лавандовым сиропом унесёт вас прямо на вершину Радужных гор</p>
             <div class="slider-list__item-price price">
-              <span class="price-old">285₽</span>
-              <span class="price-new">265₽</span>
+              <div class="price__wrapper">
+                <span class="price-old">285₽</span>
+                <span class="price-new">265₽</span>
+              </div>
+              <a href="#" class="price__button">Заказать</a>
             </div>
-            <a href="#" class="slider__button">Заказать</a>
           </li>
           <li class="slider-list__item">
             <picture>
@@ -131,10 +137,12 @@
             <p class="slider-list__item-description">Мощнее укола адреналина, чернее самой тёмной ночи, этот тройной
               эспрессо из Колумбии покажет вам, что такое настоящая бодрость</p>
             <div class="slider-list__item-price price">
-              <span class="price-old">395₽</span>
-              <span class="price-new">375₽</span>
+              <div class="price__wrapper">
+                <span class="price-old">395₽</span>
+                <span class="price-new">375₽</span>
+              </div>
+              <a href="#" class="price__button">Заказать</a>
             </div>
-            <a href="#" class="slider__button">Заказать</a>
           </li>
         </ul>
       </section>
@@ -145,23 +153,31 @@
       <h3 class="advantages__subtitle"> Главные причины выбрать Drink2Go</h3>
       <ul class="advantages__list">
         <li class="advantages__item">
-          <img class="advantages__item-image" src="#">
+          <svg class="advantages__item-image" width="50" height="56">
+            <use xlink:href="/icons/stack.svg#clock"></use>
+          </svg>
           <p class="advantages__item-title">Скорость</p>
           <p class="advantages__item-subtitle">Готовый напиток всегда под рукой — просто открой банку</p>
         </li>
         <li class="advantages__item">
-          <img class="advantages__item-image" src="#">
+          <svg class="advantages__item-image" width="50" height="56">
+            <use xlink:href="/icons/stack.svg#badge"></use>
+          </svg>
           <p class="advantages__item-title">Удобство</p>
           <p class="advantages__item-subtitle">Легко помещается и в карман,
             и в маленькую сумочку</p>
         </li>
         <li class="advantages__item">
-          <img class="advantages__item-image" src="#">
+          <svg class="advantages__item-image" width="50" height="56">
+            <use xlink:href="/icons/stack.svg#lightning"></use>
+          </svg>
           <p class="advantages__item-title">Бодрость</p>
           <p class="advantages__item-subtitle">Сбалансированная доза кофеина даст мощный заряд энергии</p>
         </li>
         <li class="advantages__item">
-          <img class="advantages__item-image" src="#">
+          <svg class="advantages__item-image" width="50" height="56">
+            <use xlink:href="/icons/stack.svg#leaf"></use>
+          </svg>
           <p class="advantages__item-title">Экологичность</p>
           <p class="advantages__item-subtitle">Вся упаковка сделана
             из перерабатываемых материалов</p>
@@ -176,14 +192,15 @@
         <form class="filter__form">
 
           <h2 class="filter__title visually-hidden">Фильтр напитков</h2>
-          <label class="filter__label" for="minSlider">Цена</label>
-          <div class="filter-container">
-            <input class="filter__input-min" type="range" id="minSlider" min="0" max="900" step="1" value="0">
-            <input class="filter__input-max" type="range" id="maxSlider" min="0" max="900" step="1" value="900">
-            <input class="filter__price-min" type="text" value="0">
-            <span class="filter__price-space">-</span>
-            <input class="filter__price-max" type="text" value="900">
-          </div>
+          <fieldset class="filter__price">
+            <legend class="filter__legend">Цена</legend>
+            <div class="filter-container">
+              <div id="slider"></div>
+              <input class="filter__price-min" type="text" value="0">
+              <span class="filter__price-space">-</span>
+              <input class="filter__price-max" type="text" value="900">
+            </div>
+          </fieldset>
 
           <fieldset class="filter__variants">
             <legend class="filter__variants-legend">Наличие молока</legend>
@@ -258,8 +275,8 @@
                   srcset="images/white_can_desktop@1x.png 1x, images/white_can_desktop@2x.png 2x">
                 <source width="130" height="188" type="image/png" media="(min-width: 768px)"
                   srcset="images/white_can_tablet@1x.png 1x, images/white_can_tablet@2x.png 2x">
-                <img class="item__link-image" src="images/white_can_mobile@1x.png" width="130" height="188"
-                  alt="Decaf Flat White">
+                <img class="item__link-image" src="images/white_can_mobile@1x.png"
+                  srcset="images/white_can_mobile@2x.png 2x" width="130" height="188" alt="Decaf Flat White">
               </picture>
             </a>
             <a class="item__title" href="#">
@@ -517,7 +534,8 @@
     </div>
 
   </footer>
-
+  <script src="scripts/index.js" defer></script>
+  <script src="vendor/nouislider.js" defer></script>
 </body>
 
 </html>

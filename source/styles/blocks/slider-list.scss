@@ -1,0 +1,49 @@
+.slider-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.slider-list__item {
+  background-color: $flat-white;
+  text-align: center;
+}
+
+.slider-list__item:nth-child(2) {
+  background-color: $lavender-latte;
+}
+
+.slider-list__item:nth-child(3) {
+  background-color: $espresso;
+}
+
+.slider-list__item-new {
+  font-family: $montserrat-bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: $base-primary;
+  text-transform: uppercase;
+}
+
+.slider-list__item-header {
+  font-family: $montserrat-bold;
+  font-size: 36px;
+  line-height: 48px;
+  color: $base-black;
+  margin: 0;
+  padding-top: 5px;
+}
+
+.slider-list__item-description {
+  font-family: $montserrat-regular;
+  font-size: 14px;
+  line-height: 20px;
+  color: $base-black;
+  margin: 0;
+  padding-top: 10px;
+}
+
+.slider-list__item-image {
+  padding-top: 20px;
+}
