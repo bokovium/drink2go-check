@@ -1,0 +1,40 @@
+.media__wrapper {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.media__title {
+  margin: 0;
+  padding: 0;
+  font-family: $montserrat-bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: $base-primary;
+}
+
+.media__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.media__list-item {
+  font-family: $montserrat-medium;
+  font-size: 12px;
+  line-height: 16px;
+  color: $base-black;
+  text-transform: uppercase;
+}
+
+.media__list-item:hover,.media__list-item:focus {
+  color: $base-primary;
+}
+
+.media__list-item:active {
+  color: $primary-darker;
+}

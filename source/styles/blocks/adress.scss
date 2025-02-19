@@ -1,0 +1,57 @@
+.adress__title {
+  margin: 0;
+  padding: 0;
+  font-family: $montserrat-bold;
+  font-size: 14px;
+  line-height: 20px;
+  color: $base-primary;
+  font-style: normal;
+}
+
+.adress__place {
+  margin: 0;
+  padding: 0;
+  font-family: $montserrat-regular;
+  font-size: 14px;
+  line-height: 20px;
+  color: $base-black;
+  font-style: normal;
+  position: relative;
+}
+
+.adress__place-icon {
+  position: absolute;
+  left: -18px;
+}
+
+.adress__phone {
+  margin: 0;
+  padding: 0;
+  font-family: $montserrat-regular;
+  font-size: 14px;
+  line-height: 20px;
+  color: $base-black;
+  font-style: normal;
+  position: relative;
+}
+
+.adress__phone-icon {
+  position: absolute;
+  left: -18px;
+}
+
+.adress__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  padding: 20px 26px 20px 33px;
+  align-items: flex-start;
+}
+
+.adress__wrapper-data {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  flex-wrap: wrap;
+}

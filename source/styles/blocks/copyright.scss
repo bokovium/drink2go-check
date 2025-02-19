@@ -1,0 +1,28 @@
+.copyright {
+  padding: 20px 15px 30px 15px;
+  text-align: center;
+  font-family: $montserrat-regular;
+  font-size: 12px;
+  line-height: 16px;
+  color: #bdbdbd;
+}
+
+.copyright__link {
+  position: relative;
+}
+
+.copyright__link:focus, .copyright__link:hover {
+  color: $base-primary;
+}
+
+.copyright__link:active {
+  color: $primary-darker;
+}
+
+
+.copyright__link-icon {
+  position: relative;
+  right: 1px;
+  top: 4px;
+}
+
