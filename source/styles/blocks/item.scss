@@ -7,11 +7,17 @@
 }
 
 .item__title {
-  font-family: $montserrat-bold;
-  font-size: 18px;
+  font-family: $montserrat-bold;;
   line-height: 32px;
   color: $base-black;
   text-align: left;
+  margin: 0;
+}
+
+.item__title-name {
+  margin: 0;
+  font-size: 18px;
+  padding-top: 28px;
 }
 
 .item__description {
@@ -20,6 +26,12 @@
   line-height: 20px;
   color: $base-black;
   text-align: left;
+  margin: 0;
+  padding-top: 4px;
+}
+
+.item__link-image {
+  margin: 0 auto;
 }
 
 .item__order {
@@ -27,6 +39,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+  padding-top: 15px;
 }
 
 .item__order-price {

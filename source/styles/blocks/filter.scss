@@ -8,6 +8,7 @@
   font-size: 16px;
   line-height: 24px;
   color: $base-black;
+  padding-top: 18px;
 }
 
 .filter__container-input {
@@ -42,14 +43,18 @@
   font-size: 16px;
   line-height: 24px;
   color: $base-black;
+  padding-top: 30px;
 }
 
 .filter__variants {
   border: 0;
+  padding-left: 0;
 }
 
 .filter__country {
   border: 0;
+  padding-top: 7px;
+  padding-left: 0;
 }
 
 .filter__country-legend {
@@ -57,6 +62,7 @@
   font-size: 16px;
   line-height: 24px;
   color: $base-black;
+  padding-top: 4px;
 }
 
 .filter__button {
@@ -74,6 +80,7 @@
 .filter__button--apply {
   background-color: $base-primary;
   color: $base-white;
+  margin-top: 6px;
 }
 
 .filter__button--reset {

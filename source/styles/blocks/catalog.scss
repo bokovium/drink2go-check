@@ -2,6 +2,10 @@
   background-color: $lightest-grey;
 }
 
+.catalog__wrapper {
+  padding: 50px 20px 20px 15px;
+}
+
 .catalog__title {
   font-family: $montserrat-bold;
   text-transform: uppercase;
@@ -9,9 +13,7 @@
   line-height: 16px;
   color: $base-primary;
   text-align: center;
-  padding-top: 50px;
   margin: 0;
-  padding-top: 53px;
 }
 
 .catalog__subtitle {

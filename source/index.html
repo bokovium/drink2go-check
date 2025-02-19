@@ -83,6 +83,7 @@
       <section class="promo-section__slider slider">
         <ul class="slider-list">
           <li class="slider-list__item">
+            <div class="slider-list__item-wrapper">
             <picture>
               <source width="600" height="600" type="image/png" media="(min-width: 1440px)"
                 srcset="images/decaf_flat_white_desktop@1x.png 1x, images/decaf_flat_white_desktop@2x.png 2x">
@@ -91,7 +92,7 @@
               <img class="slider-list__item-image" src="images/decaf_flat_white_mobile@1x.png"
                 srcset="images/decaf_flat_white_mobile@2x.png 2x" width="280" height="280" alt="Decaf Flat White">
             </picture>
-            <span class="slider-list__item-new">Новинка!</span>
+            <p class="slider-list__item-new">Новинка!</p>
             <h1 class="slider-list__item-header">Декаф Флэт Уайт</h1>
             <p class="slider-list__item-description">Свежесваренный кофе без кофеина<br>из Эфиопии с
               натуральным<br>фермерским
@@ -103,8 +104,9 @@
               </div>
               <a href="#" class="price__button">Заказать</a>
             </div>
+          </div>
           </li>
-          <li class="slider-list__item">
+          <li class="slider-list__item visually-hidden">
             <picture>
               <source width="600" height="600" type="image/png" media="(min-width: 1440px)"
                 srcset="images/lavander_latte_desktop@1x.png 1x, images/lavander_latte_desktop@2x.png 2x">
@@ -124,7 +126,7 @@
               <a href="#" class="price__button">Заказать</a>
             </div>
           </li>
-          <li class="slider-list__item">
+          <li class="slider-list__item visually-hidden">
             <picture>
               <source width="600" height="600" type="image/png" media="(min-width: 1440px)"
                 srcset="images/triple_expresso_desktop@1x.png 1x, images/triple_expresso_desktop@2x.png 2x">
@@ -149,43 +151,46 @@
     </section>
 
     <section class="advantages">
+      <div class="advantages__wrapper">
       <h2 class="advantages__title">Преимущества</h2>
       <h3 class="advantages__subtitle"> Главные причины выбрать Drink2Go</h3>
       <ul class="advantages__list">
         <li class="advantages__item">
-          <svg class="advantages__item-image" width="50" height="56">
+          <svg class="advantages__item-image advantages__item-image--clock" width="50" height="56">
             <use xlink:href="/icons/stack.svg#clock"></use>
           </svg>
           <p class="advantages__item-title">Скорость</p>
           <p class="advantages__item-subtitle">Готовый напиток всегда под рукой — просто открой банку</p>
         </li>
         <li class="advantages__item">
-          <svg class="advantages__item-image" width="50" height="56">
+          <svg class="advantages__item-image advantages__item-image--badge" width="50" height="56">
             <use xlink:href="/icons/stack.svg#badge"></use>
           </svg>
           <p class="advantages__item-title">Удобство</p>
-          <p class="advantages__item-subtitle">Легко помещается и в карман,
+          <p class="advantages__item-subtitle">Легко помещается и в карман,<br>
             и в маленькую сумочку</p>
         </li>
         <li class="advantages__item">
-          <svg class="advantages__item-image" width="50" height="56">
+          <svg class="advantages__item-image advantages__item-image--lightning" width="50" height="56">
             <use xlink:href="/icons/stack.svg#lightning"></use>
           </svg>
           <p class="advantages__item-title">Бодрость</p>
           <p class="advantages__item-subtitle">Сбалансированная доза кофеина даст мощный заряд энергии</p>
         </li>
         <li class="advantages__item">
-          <svg class="advantages__item-image" width="50" height="56">
+          <svg class="advantages__item-image advantages__item-image--leaf" width="50" height="56">
             <use xlink:href="/icons/stack.svg#leaf"></use>
           </svg>
           <p class="advantages__item-title">Экологичность</p>
-          <p class="advantages__item-subtitle">Вся упаковка сделана
+          <p class="advantages__item-subtitle">Вся упаковка сделана<br>
             из перерабатываемых материалов</p>
         </li>
       </ul>
+    </div>
     </section>
 
     <section class="catalog">
+      <div class="catalog__wrapper">
       <h2 class="catalog__title">Каталог</h2>
       <h3 class="catalog__subtitle">Каталог кофейных напитков</h3>
       <section class="catalog__filter filter">
@@ -267,6 +272,7 @@
           <button class="filter__button filter__button--reset" type="reset">Сбросить</button>
 
         </form>
+      </div>
       </section>
 
       <section class="catalog__menu">
@@ -296,7 +302,7 @@
                 <h3 class="item__title-name">Декаф Флэт Уайт</h3>
               </a>
               <p class="item__description">Кофе без кофеина из Эфиопии
-                с натуральным фермерским молоком</p>
+                <br>с натуральным фермерским молоком</p>
               <div class="item__order">
                 <span class="item__order-price">225₽</span>
                 <a class="item__button" href="#">
@@ -323,7 +329,7 @@
                 <h3 class="item__title-name">Декаф Флэт Уайт</h3>
               </a>
               <p class="item__description">Кофе без кофеина из Эфиопии
-                с натуральным фермерским молоком</p>
+                <br>с натуральным фермерским молоком</p>
               <div class="item__order">
                 <span class="item__order-price">225₽</span>
                 <a class="item__button" href="#">
@@ -350,7 +356,7 @@
                 <h3 class="item__title-name">Декаф Флэт Уайт</h3>
               </a>
               <p class="item__description">Кофе без кофеина из Эфиопии
-                с натуральным фермерским молоком</p>
+                <br>с натуральным фермерским молоком</p>
               <div class="item__order">
                 <span class="item__order-price">225₽</span>
                 <a class="item__button" href="#">
@@ -377,7 +383,7 @@
                 <h3 class="item__title-name">Декаф Флэт Уайт</h3>
               </a>
               <p class="item__description">Кофе без кофеина из Эфиопии
-                с натуральным фермерским молоком</p>
+                <br>с натуральным фермерским молоком</p>
               <div class="item__order">
                 <span class="item__order-price">225₽</span>
                 <a class="item__button" href="#">

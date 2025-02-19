@@ -10,10 +10,14 @@
   color: $base-black;
 }
 
+.country-list__item-name {
+  font-size: 16px;
+}
+
 .country-list__item {
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 10px;
 }
 
 .country-list__item-input {
