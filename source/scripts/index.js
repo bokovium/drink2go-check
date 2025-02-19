@@ -13,7 +13,6 @@ document.addEventListener('DOMContentLoaded', () => {
         'max': 900 // Максимальное значение
       },
       step: 1, // Шаг слайдера
-      cssPrefix: 'noui-'
     });
   }
 });
