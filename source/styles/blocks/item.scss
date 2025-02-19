@@ -1,0 +1,53 @@
+.item {
+  background-color: $base-white;
+}
+
+.item__wrapper {
+  padding: 40px 20px 20px 20px;
+}
+
+.item__title {
+  font-family: $montserrat-bold;
+  font-size: 18px;
+  line-height: 32px;
+  color: $base-black;
+  text-align: left;
+}
+
+.item__description {
+  font-family: $montserrat-regular;
+  font-size: 14px;
+  line-height: 20px;
+  color: $base-black;
+  text-align: left;
+}
+
+.item__order {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item__order-price {
+  font-family: $montserrat-semi-bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: $base-black;
+}
+
+.item__button-icon {
+  position: relative;
+  top: 2px;
+}
+
+.item__button {
+  position: relative;
+  padding: 8px 20px 8px 20px;
+  background-color: $base-primary;
+  color: $base-white;
+  font-family: $montserrat-regular;
+  font-size: 14px;
+  line-height: 20px;
+  border-radius: 4px;
+}

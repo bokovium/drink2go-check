@@ -197,9 +197,9 @@
             <div class="filter__container">
               <div id="slider"></div>
               <div class="filter__container-input">
-              <input class="filter__price-min" type="text" placeholder="0">
-              <span class="filter__price-space">-</span>
-              <input class="filter__price-max" type="text" placeholder="900">
+                <input class="filter__price-min" type="text" placeholder="0">
+                <span class="filter__price-space">-</span>
+                <input class="filter__price-max" type="text" placeholder="900">
               </div>
             </div>
           </fieldset>
@@ -208,19 +208,23 @@
             <legend class="filter__variants-legend">Наличие молока</legend>
             <ul class="filter__variants-list variants-list">
               <li class="variants-list__item">
-                <input class="variants-list__item-input" id="radio-1" type="radio" name="Вид молока" value="Неважно" checked>
+                <input class="variants-list__item-input" id="radio-1" type="radio" name="Вид молока" value="Неважно"
+                  checked>
                 <label class="variants-list__item-description" for="radio-1">Неважно</label>
               </li>
               <li class="variants-list__item">
-                <input class="variants-list__item-input" id="radio-2" type="radio" name="Вид молока" value="Только животное">
+                <input class="variants-list__item-input" id="radio-2" type="radio" name="Вид молока"
+                  value="Только животное">
                 <label class="variants-list__item-description" for="radio-2">Только животное</label>
               </li>
               <li class="variants-list__item">
-                <input class="variants-list__item-input" id="radio-3" type="radio" name="Вид молока" value="Только растительное">
+                <input class="variants-list__item-input" id="radio-3" type="radio" name="Вид молока"
+                  value="Только растительное">
                 <label class="variants-list__item-description" for="radio-3">Только растительное</label>
               </li>
               <li class="variants-list__item">
-                <input class="variants-list__item-input" id="radio-4" type="radio" name="Вид молока" value="Без молока" disabled>
+                <input class="variants-list__item-input" id="radio-4" type="radio" name="Вид молока" value="Без молока"
+                  disabled>
                 <label class="variants-list__item-description" for="radio-4">Без молока</label>
               </li>
             </ul>
@@ -230,7 +234,8 @@
             <legend class="filter__country-legend">Страна произрастания</legend>
             <ul class="filter__country-list country-list">
               <li class="country-list__item">
-                <input class="country-list__item-input" id="check-1" type="checkbox" value="Бразилия" name="Бразилия" checked>
+                <input class="country-list__item-input" id="check-1" type="checkbox" value="Бразилия" name="Бразилия"
+                  checked>
                 <label class="country-list__item-description" for="check-1"></label>
                 <label class="country-list__item-name" for="check-1">Бразилия</span>
               </li>
@@ -245,7 +250,8 @@
                 <label class="country-list__item-name" for="check-3">Колумбия</label>
               </li>
               <li class="country-list__item">
-                <input class="country-list__item-input" id="check-4" type="checkbox" value="Коста-Рика" name="Коста-Рика">
+                <input class="country-list__item-input" id="check-4" type="checkbox" value="Коста-Рика"
+                  name="Коста-Рика">
                 <label class="country-list__item-description" for="check-4"></label>
                 <label class="country-list__item-name" for="check-4">Коста-Рика</label>
               </li>
@@ -275,28 +281,35 @@
         <ul class="catalog__menu-list menu-list">
 
           <li class="menu-list__item item">
-            <a class="item-link" href="#">
-              <picture>
-                <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                  srcset="images/white_can_desktop@1x.png 1x, images/white_can_desktop@2x.png 2x">
-                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                  srcset="images/white_can_tablet@1x.png 1x, images/white_can_tablet@2x.png 2x">
-                <img class="item__link-image" src="images/white_can_mobile@1x.png"
-                  srcset="images/white_can_mobile@2x.png 2x" width="130" height="188" alt="Decaf Flat White">
-              </picture>
-            </a>
-            <a class="item__title" href="#">
-              <h3 class="item__title-name">Декаф Флэт Уайт</h3>
-            </a>
-            <p class="item__description">Кофе без кофеина из Эфиопии
-              с натуральным фермерским молоком</p>
-            <div class="item__order">
-              <span class="item__order-price">225₽</span>
-              <a class="item__button" href="#">В корзину</a>
+            <div class="item__wrapper">
+              <a class="item-link" href="#">
+                <picture>
+                  <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
+                    srcset="images/white_can_desktop@1x.png 1x, images/white_can_desktop@2x.png 2x">
+                  <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                    srcset="images/white_can_tablet@1x.png 1x, images/white_can_tablet@2x.png 2x">
+                  <img class="item__link-image" src="images/white_can_mobile@1x.png"
+                    srcset="images/white_can_mobile@2x.png 2x" width="130" height="188" alt="Decaf Flat White">
+                </picture>
+              </a>
+              <a class="item__title" href="#">
+                <h3 class="item__title-name">Декаф Флэт Уайт</h3>
+              </a>
+              <p class="item__description">Кофе без кофеина из Эфиопии
+                с натуральным фермерским молоком</p>
+              <div class="item__order">
+                <span class="item__order-price">225₽</span>
+                <a class="item__button" href="#">
+                  <svg class="item__button-icon" width="20" height="16">
+                    <use xlink:href="/icons/stack.svg#basket_order">
+                  </svg>
+                  В корзину</a>
+              </div>
             </div>
           </li>
 
           <li class="menu-list__item item">
+            <div class="item__wrapper">
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
@@ -313,11 +326,17 @@
               с натуральным фермерским молоком</p>
             <div class="item__order">
               <span class="item__order-price">225₽</span>
-              <a class="item__button" href="#">В корзину</a>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order">
+                </svg>
+                В корзину</a>
+            </div>
             </div>
           </li>
 
           <li class="menu-list__item item">
+            <div class="item__wrapper">
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
@@ -334,11 +353,17 @@
               с натуральным фермерским молоком</p>
             <div class="item__order">
               <span class="item__order-price">225₽</span>
-              <a class="item__button" href="#">В корзину</a>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order">
+                </svg>
+                В корзину</a>
+            </div>
             </div>
           </li>
 
           <li class="menu-list__item item">
+            <div class="item__wrapper">
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
@@ -355,11 +380,17 @@
               с натуральным фермерским молоком</p>
             <div class="item__order">
               <span class="item__order-price">225₽</span>
-              <a class="item__button" href="#">В корзину</a>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order">
+                </svg>
+                В корзину</a>
+            </div>
             </div>
           </li>
 
           <li class="menu-list__item item">
+            <div class="item__wrapper">
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
@@ -376,11 +407,17 @@
               с натуральным фермерским молоком</p>
             <div class="item__order">
               <span class="item__order-price">225₽</span>
-              <a class="item__button" href="#">В корзину</a>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order">
+                </svg>
+                В корзину</a>
+            </div>
             </div>
           </li>
 
           <li class="menu-list__item item">
+            <div class="item__wrapper">
             <a class="item-link" href="#">
               <picture>
                 <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
@@ -397,7 +434,12 @@
               с натуральным фермерским молоком</p>
             <div class="item__order">
               <span class="item__order-price">225₽</span>
-              <a class="item__button" href="#">В корзину</a>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order">
+                </svg>
+                В корзину</a>
+            </div>
             </div>
           </li>
         </ul>
