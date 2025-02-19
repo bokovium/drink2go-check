@@ -208,52 +208,56 @@
             <legend class="filter__variants-legend">Наличие молока</legend>
             <ul class="filter__variants-list variants-list">
               <li class="variants-list__item">
-                <input class="variants-list__item-input" type="radio" value="Неважно">
-                <span class="variants-list__item-description">Неважно</span>
+                <input class="variants-list__item-input" id="radio-1" type="radio" name="Вид молока" value="Неважно" checked>
+                <label class="variants-list__item-description" for="radio-1">Неважно</label>
               </li>
               <li class="variants-list__item">
-                <input class="variants-list__item-input" type="radio" value="Только животное">
-                <span class="variants-list__item-description">Только животное</span>
+                <input class="variants-list__item-input" id="radio-2" type="radio" name="Вид молока" value="Только животное">
+                <label class="variants-list__item-description" for="radio-2">Только животное</label>
               </li>
               <li class="variants-list__item">
-                <input class="variants-list__item-input" type="radio" value="Только растительное">
-                <span class="variants-list__item-description">Только растительное</span>
+                <input class="variants-list__item-input" id="radio-3" type="radio" name="Вид молока" value="Только растительное">
+                <label class="variants-list__item-description" for="radio-3">Только растительное</label>
               </li>
               <li class="variants-list__item">
-                <input class="variants-list__item-input" type="radio" value="Без молока">
-                <span class="variants-list__item-description">Без молока</span>
+                <input class="variants-list__item-input" id="radio-4" type="radio" name="Вид молока" value="Без молока" disabled>
+                <label class="variants-list__item-description" for="radio-4">Без молока</label>
               </li>
             </ul>
           </fieldset>
 
           <fieldset class="filter__country">
-            <legend class="filter__country-legend">
-              <ul class="filter__country-list country-list">
-                <li class="country-list__item">
-                  <input class="country-list__item-input" type="checkbox" value="Бразилия">
-                  <span class="country-list__item-description">Бразилия</span>
-                </li>
-                <li class="country-list__item">
-                  <input class="country-list__item-input" type="checkbox" value="Эфиопия">
-                  <span class="country-list__item-description">Эфиопия</span>
-                </li>
-                <li class="country-list__item">
-                  <input class="country-list__item-input" type="checkbox" value="Колумбия">
-                  <span class="country-list__item-description">Колумбия</span>
-                </li>
-                <li class="country-list__item">
-                  <input class="country-list__item-input" type="checkbox" value="Коста-Рика">
-                  <span class="country-list__item-description">Коста-Рика</span>
-                </li>
-                <li class="country-list__item">
-                  <input class="country-list__item-input" type="checkbox" value="Перу">
-                  <span class="country-list__item-description">Перу</span>
-                </li>
-              </ul>
-            </legend>
+            <legend class="filter__country-legend">Страна произрастания</legend>
+            <ul class="filter__country-list country-list">
+              <li class="country-list__item">
+                <input class="country-list__item-input" id="check-1" type="checkbox" value="Бразилия" name="Бразилия" checked>
+                <label class="country-list__item-description" for="check-1"></label>
+                <label class="country-list__item-name" for="check-1">Бразилия</span>
+              </li>
+              <li class="country-list__item">
+                <input class="country-list__item-input" id="check-2" type="checkbox" value="Эфиопия" name="Эфиопия">
+                <label class="country-list__item-description" for="check-2"></label>
+                <label class="country-list__item-name" for="check-2">Эфиопия</label>
+              </li>
+              <li class="country-list__item">
+                <input class="country-list__item-input" id="check-3" type="checkbox" value="Колумбия" name="Колумбия">
+                <label class="country-list__item-description" for="check-3"></label>
+                <label class="country-list__item-name" for="check-3">Колумбия</label>
+              </li>
+              <li class="country-list__item">
+                <input class="country-list__item-input" id="check-4" type="checkbox" value="Коста-Рика" name="Коста-Рика">
+                <label class="country-list__item-description" for="check-4"></label>
+                <label class="country-list__item-name" for="check-4">Коста-Рика</label>
+              </li>
+              <li class="country-list__item">
+                <input class="country-list__item-input" id="check-5" type="checkbox" value="Перу" name="Перу" disabled>
+                <label class="country-list__item-description" for="check-5"></label>
+                <label class="country-list__item-name" for="check-5">Перу</label>
+              </li>
+            </ul>
           </fieldset>
 
-          <button class="filter__button filter__button--aplly" type="submit">Применить</button>
+          <button class="filter__button filter__button--apply" type="submit">Применить</button>
           <button class="filter__button filter__button--reset" type="reset">Сбросить</button>
 
         </form>

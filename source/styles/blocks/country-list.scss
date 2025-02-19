@@ -1,0 +1,72 @@
+.country-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+  font-family: $montserrat-regular;
+  font-size: 14px;
+  line-height: 24px;
+  color: $base-black;
+}
+
+.country-list__item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.country-list__item-input {
+  display: none;
+}
+
+.country-list__item-description {
+  margin: 0;
+}
+
+.country-list__item-input + .country-list__item-description {
+  display: block;
+  position: relative;
+  width: 42px;
+  height: 24px;
+  border-radius: 12px;
+  background: rgb(189, 189, 189);
+  cursor: pointer;
+  -webkit-transition: background 0.1s ease-in-out;
+  transition: background 0.1s ease-in-out;
+}
+
+.country-list__item-input + .country-list__item-description::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: $base-white;
+  position: absolute;
+  left: 2px;
+  top: 2px;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.country-list__item-input:checked + .country-list__item-description::before {
+  box-shadow: -2px 0px 5px rgba(0, 0, 0, 0.2);
+  left: 20px;
+  -webkit-transform: rotate(295deg);
+  transform: rotate(295deg);
+}
+
+.country-list__item-input:checked + .country-list__item-description {
+  background: $base-primary;
+}
+.country-list__item-input:disabled + .country-list__item-description {
+  background: $light-grey;
+}
+
+.country-list__item-input:disabled + .country-list__item-description + .country-list__item-name {
+  color: #bdbdbd;
+}
+

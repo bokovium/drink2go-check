@@ -36,3 +36,49 @@
   line-height: 24px;
   color: #bdbdbd;
 }
+
+.filter__variants-legend {
+  font-family: $montserrat-semi-bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: $base-black;
+}
+
+.filter__variants {
+  border: 0;
+}
+
+.filter__country {
+  border: 0;
+}
+
+.filter__country-legend {
+  font-family: $montserrat-semi-bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: $base-black;
+}
+
+.filter__button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 92px;
+  font-family: $montserrat-regular;
+  font-size: 16px;
+  line-height: 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.filter__button--apply {
+  background-color: $base-primary;
+  color: $base-white;
+}
+
+.filter__button--reset {
+  background-color: $base-white;
+  color: $base-primary;
+  padding: 8px 101px;
+  margin-top: 20px;
+}
