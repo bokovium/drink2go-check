@@ -16,8 +16,8 @@
 </head>
 
 <body class="page__body">
-  <header class="header">
-    <nav class="main-nav">
+  <header class="page__body-header header">
+    <nav class="header__main-nav main-nav">
       <div class="main-nav__wrapper">
         <a class="main-nav-logo">
           <picture>
@@ -77,8 +77,8 @@
   </header>
 
 
-  <main>
-    <section class="promo-section">
+  <main class="page__body-main main">
+    <section class="main__promo-section promo-section">
       <h2 class="visually-hidden">Слайдер с новинками Drink2Go</h2>
       <section class="promo-section__slider slider">
         <ul class="slider-list">
@@ -150,7 +150,7 @@
       </section>
     </section>
 
-    <section class="advantages">
+    <section class="main__advantages advantages">
       <div class="advantages__wrapper">
       <h2 class="advantages__title">Преимущества</h2>
       <h3 class="advantages__subtitle"> Главные причины выбрать Drink2Go</h3>
@@ -189,7 +189,7 @@
     </div>
     </section>
 
-    <section class="catalog">
+    <section class="main__catalog catalog">
       <div class="catalog__wrapper">
       <h2 class="catalog__title">Каталог</h2>
       <h3 class="catalog__subtitle">Каталог кофейных напитков</h3>
@@ -276,16 +276,16 @@
       </div>
       </section>
 
-      <section class="catalog__menu">
+      <section class="main__catalog-menu catalog-menu">
 
-        <div class="catalog__menu-sort sort">
+        <div class="catalog-menu-sort sort">
           <span class="sort__title">Сортировка:</span>
           <select class="sort__select">
             <option class="sort__select-value">по умолчанию</option>
           </select>
         </div>
 
-        <ul class="catalog__menu-list menu-list">
+        <ul class="catalog-menu__list menu-list">
 
           <li class="menu-list__item item">
             <div class="item__wrapper">
@@ -451,7 +451,7 @@
           </li>
         </ul>
 
-        <ul class="catalog__menu-pagination pagination">
+        <ul class="catalog-menu__pagination pagination">
 
           <li class="pagination__item">
             <a class="pagination__item-link pagination__item-link--back" href="#"></a>
@@ -509,7 +509,7 @@
 
         <li class="social-item">
           <a class="social-item__link" href="#">
-            <svg class="item__button-icon" width="20" height="20">
+            <svg class="social-item__link-icon" width="20" height="20">
               <use xlink:href="/icons/stack.svg#vk"></use>
             </svg>
             <span class="social-item__link-decription visually-hidden">Вконтакте</span>
@@ -518,7 +518,7 @@
 
         <li class="social-item">
           <a class="social-item__link" href="#">
-            <svg class="item__button-icon" width="20" height="20">
+            <svg class="social-item__link-icon" width="20" height="20">
               <use xlink:href="/icons/stack.svg#pinterest"></use>
             </svg>
             <span class="social-item__link-decription visually-hidden">Pinterest</span>
@@ -527,7 +527,7 @@
 
         <li class="social-item">
           <a class="social-item__link" href="#">
-            <svg class="item__button-icon" width="20" height="20">
+            <svg class="social-item__link-icon" width="20" height="20">
               <use xlink:href="/icons/stack.svg#ok"></use>
             </svg>
             <span class="social-item__link-decription visually-hidden">Одноклассники</span>
