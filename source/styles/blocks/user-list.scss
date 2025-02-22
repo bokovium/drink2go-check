@@ -20,13 +20,14 @@
 .user-list__item-basket,.user-list__item-enter {
   display: none;
 
+  @media (min-width:$tablet-width) {
+    display: none;
+  }
+
   @media (min-width:$desktop-width) {
     display: block;
   }
 
-  @media (min-width:$tablet-width) {
-    display: none;
-  }
 }
 
 .user-list__item-link {
