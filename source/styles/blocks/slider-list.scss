@@ -30,7 +30,7 @@
   text-transform: uppercase;
   margin: 0;
   padding: 0;
-  padding-top: 8px;
+  padding-top: 10px;
 
   @media(min-width:$tablet-width) {
     padding-top: 1px;
@@ -39,7 +39,7 @@
 
 .slider-list__item-header {
   font-family: $montserrat-bold;
-  font-size: 36px;
+  font-size: 37px;
   line-height: 48px;
   color: $base-black;
   margin: 0;
@@ -87,7 +87,7 @@
 }
 
 .slider__arrows {
-  display: none;
+  display: block;
   position: relative;
 
   @media(min-width:$tablet-width) {
@@ -101,6 +101,13 @@
 }
 
 .slider__arrows-arrow {
+  position: absolute;
+  width: 20px;
+  height: 656px;
+  border: none;
+  background-color: transparent;
+  z-index: 0;
+
   @media(min-width:$tablet-width) {
     position: absolute;
     width: 80px;
