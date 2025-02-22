@@ -1,6 +1,10 @@
+.page {
+  background-color: $base-grey;
+}
+
 .page__body {
   width: 320px;
-  background-color: rgb(248, 13, 13);
+  background-color: $base-white;
 
   @media (min-width: $tablet-width) {
     width: 768px;

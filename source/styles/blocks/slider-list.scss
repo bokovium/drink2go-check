@@ -8,6 +8,10 @@
 .slider-list__item {
   background-color: $flat-white;
   text-align: center;
+
+  @media(min-width:$tablet-width){
+    position: relative;
+  }
 }
 
 .slider-list__item:nth-child(2) {
@@ -27,6 +31,10 @@
   margin: 0;
   padding: 0;
   padding-top: 8px;
+
+  @media(min-width:$tablet-width) {
+    padding-top: 1px;
+  }
 }
 
 .slider-list__item-header {
@@ -36,6 +44,11 @@
   color: $base-black;
   margin: 0;
   padding-top: 5px;
+
+  @media(min-width:$tablet-width) {
+    font-size: 58px;
+    line-height: 80px;
+  }
 }
 
 .slider-list__item-description {
@@ -45,12 +58,78 @@
   color: $base-black;
   margin: 0;
   padding-top: 10px;
+
+  @media(min-width:$tablet-width) {
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 14px;
+  }
 }
 
 .slider-list__item-image {
   margin: 0 auto;
+
+  @media(min-width:$tablet-width) {
+    position: absolute;
+    top: 353px;
+    left: 145px;
+  }
 }
 
 .slider-list__item-wrapper {
   padding: 20px 20px 60px 20px;
+
+  @media(min-width:$tablet-width) {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 60px 82px 308px 80px;
+  }
+}
+
+.slider__arrows {
+  display: none;
+  position: relative;
+
+  @media(min-width:$tablet-width) {
+    display: block;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+}
+
+.slider__arrows-arrow {
+  @media(min-width:$tablet-width) {
+    position: absolute;
+    width: 80px;
+    height: 640px;
+    border: none;
+    background-color: transparent;
+    z-index: 0;
+  }
+}
+
+.slider__arrows-arrow--left {
+  content: "";
+  position: absolute;
+  background-image: url(../../images/arrow_forward_back.svg);
+  background-position: center;
+  background-size: 11px 20px;
+  background-repeat: no-repeat;
+  bottom: -1px;
+  left: 0px;
+}
+
+.slider__arrows-arrow--right {
+  content: "";
+  position: absolute;
+  background-image: url(../../images/arrow_forward_back.svg);
+  background-position: center;
+  background-size: 11px 20px;
+  background-repeat: no-repeat;
+  transform: scaleX(-1);
+  bottom: -1px;
+  right: 0px;
 }

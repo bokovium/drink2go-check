@@ -80,7 +80,7 @@
 
 
   <main class="page__body-main main">
-    <section class="main__promo-section promo-section">
+    <section class="main__promo-section promo-section" data-test="hero">
       <h2 class="visually-hidden">Слайдер с новинками Drink2Go</h2>
       <section class="promo-section__slider slider">
         <ul class="slider-list">
@@ -94,17 +94,18 @@
               <img class="slider-list__item-image" src="images/decaf_flat_white_mobile@1x.png"
                 srcset="images/decaf_flat_white_mobile@2x.png 2x" width="280" height="280" alt="Decaf Flat White">
             </picture>
+            <div class="slider-list__item-info">
             <p class="slider-list__item-new">Новинка!</p>
             <h1 class="slider-list__item-header">Декаф Флэт Уайт</h1>
-            <p class="slider-list__item-description">Свежесваренный кофе без кофеина<br>из Эфиопии с
-              натуральным<br>фермерским
-              молоком — то, что<br>нужно для расслабления после<br>тяжёлого рабочего дня</p>
+            <p class="slider-list__item-description">Свежесваренный кофе без кофеина из Эфиопии с&nbsp;натуральным фермерским
+              молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
             <div class="slider-list__item-price price">
               <div class="price__wrapper">
                 <span class="price-old">295₽</span>
                 <span class="price-new">225₽</span>
               </div>
               <a href="#" class="price__button">Заказать</a>
+              </div>
             </div>
           </div>
           </li>
@@ -149,6 +150,10 @@
             </div>
           </li>
         </ul>
+        <div class="slider__arrows">
+          <button class="slider__arrows-arrow slider__arrows-arrow--left"></button>
+          <button class="slider__arrows-arrow slider__arrows-arrow--right"></button>
+        </div>
       </section>
     </section>
 
