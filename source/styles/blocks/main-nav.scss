@@ -5,10 +5,27 @@
   justify-content: space-between;
   align-items: center;
   padding: 0px 22px 0px 20px;
+
+  @media (min-width:$desktop-width) {
+    padding: 24px 60px 29px 40px;
+    width: 1340px;
+    height: 24px;
+  }
 }
 
 .main-nav__title {
   display: none;
+
+  @media (min-width:$desktop-width) {
+    display: block;
+    margin: 0;
+    width: 126px;
+    font-family: $montserrat-regular;
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: $base-black;
+  }
 }
 
 .main-nav__list .user-list__item {
@@ -19,6 +36,10 @@
 
 .main-nav__list {
   list-style: none;
+
+  @media (min-width:$desktop-width) {
+    margin: 0;}
+    padding: 0;
 }
 .main-nav__toggler {
   height: 16px;
@@ -26,6 +47,16 @@
   background-image: url(../../icons/burger.svg);
   border: none;
   background-color: $base-white;
+
+  @media (min-width:$desktop-width) {
+    display: none;
+  }
+}
+
+.main-nav__wrapper-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 
 

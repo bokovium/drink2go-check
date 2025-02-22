@@ -5,8 +5,31 @@
   padding: 0;
   padding-left: 65px;
   gap: 44px;
+
+  @media (min-width:$desktop-width) {
+    padding-left: 0;
+    gap: 63px;
+  }
 }
+
 
 .user-list__item-basket,.user-list__item-enter {
   display: none;
+
+  @media (min-width:$desktop-width) {
+    display: block;
+  }
+}
+
+.user-list__item-link {
+  @media (min-width:$desktop-width) {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-family: $montserrat-medium;
+    font-size: 12px;
+    line-height: 16px;
+    color: $base-black;
+    text-transform: uppercase;
+  }
 }
