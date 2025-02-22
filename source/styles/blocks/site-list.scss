@@ -6,6 +6,13 @@
     gap: 22px;
     padding-right: 23px;
   }
+
+  @media (min-width:$tablet-width) {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    justify-content: flex-start;
+  }
 }
 
 .site-list__item {
@@ -18,10 +25,19 @@
   @media (min-width:$desktop-width) {
     padding: 32px 20px;
   }
+
+  @media (min-width:$tablet-width) {
+    padding: 32px 20px;
+  }
 }
 
 .site-list__item--current {
   @media (min-width:$desktop-width) {
+    border-bottom: 2px solid $base-primary;
+    color: $base-primary;
+  }
+
+  @media (min-width:$tablet-width) {
     border-bottom: 2px solid $base-primary;
     color: $base-primary;
   }
