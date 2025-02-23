@@ -20,16 +20,16 @@
     <nav class="header__main-nav main-nav">
       <div class="main-nav__wrapper">
         <div class="main-nav__wrapper-logo">
-        <a class="main-nav-logo">
-          <picture>
-            <source width="170" height="36" type="image/svg+xml" media="(min-width: 1440px)"
-              srcset="images/logo_desktop.svg">
-            <source width="82" height="36" type="image/svg+xml" media="(min-width: 768px)"
-              srcset="images/logo_tablet.svg">
-            <img src="images/logo_mobile.svg" width="32" height="36" alt="Логотип Drink2Go">
-          </picture>
-        </a>
-        <h1 class="main-nav__title">Интернет-магазин кофейных напитков</h1>
+          <a class="main-nav-logo">
+            <picture>
+              <source width="170" height="36" type="image/svg+xml" media="(min-width: 1440px)"
+                srcset="images/logo_desktop.svg">
+              <source width="82" height="36" type="image/svg+xml" media="(min-width: 768px)"
+                srcset="images/logo_tablet.svg">
+              <img src="images/logo_mobile.svg" width="32" height="36" alt="Логотип Drink2Go">
+            </picture>
+          </a>
+          <h1 class="main-nav__title">Интернет-магазин кофейных напитков</h1>
         </div>
         <ul class="main-nav__list site-list">
           <li class="site-list__item site-list__item--current">
@@ -86,28 +86,29 @@
         <ul class="slider-list">
           <li class="slider-list__item">
             <div class="slider-list__item-wrapper">
-            <picture>
-              <source width="600" height="600" type="image/png" media="(min-width: 1440px)"
-                srcset="images/decaf_flat_white_desktop@1x.png 1x, images/decaf_flat_white_desktop@2x.png 2x">
-              <source width="476" height="476" type="image/png" media="(min-width: 768px)"
-                srcset="images/decaf_flat_white_tablet@1x.png 1x, images/decaf_flat_white_tablet@2x.png 2x">
-              <img class="slider-list__item-image" src="images/decaf_flat_white_mobile@1x.png"
-                srcset="images/decaf_flat_white_mobile@2x.png 2x" width="280" height="280" alt="Decaf Flat White">
-            </picture>
-            <div class="slider-list__item-info">
-            <p class="slider-list__item-new">Новинка!</p>
-            <h1 class="slider-list__item-header">Декаф Флэт Уайт</h1>
-            <p class="slider-list__item-description">Свежесваренный кофе без кофеина из Эфиопии с&nbsp;натуральным фермерским
-              молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
-            <div class="slider-list__item-price price">
-              <div class="price__wrapper">
-                <span class="price-old">295₽</span>
-                <span class="price-new">225₽</span>
-              </div>
-              <a href="#" class="price__button">Заказать</a>
+              <picture>
+                <source width="600" height="600" type="image/png" media="(min-width: 1440px)"
+                  srcset="images/decaf_flat_white_desktop@1x.png 1x, images/decaf_flat_white_desktop@2x.png 2x">
+                <source width="476" height="476" type="image/png" media="(min-width: 768px)"
+                  srcset="images/decaf_flat_white_tablet@1x.png 1x, images/decaf_flat_white_tablet@2x.png 2x">
+                <img class="slider-list__item-image" src="images/decaf_flat_white_mobile@1x.png"
+                  srcset="images/decaf_flat_white_mobile@2x.png 2x" width="280" height="280" alt="Decaf Flat White">
+              </picture>
+              <div class="slider-list__item-info">
+                <p class="slider-list__item-new">Новинка!</p>
+                <h1 class="slider-list__item-header">Декаф Флэт Уайт</h1>
+                <p class="slider-list__item-description">Свежесваренный кофе без кофеина из Эфиопии с&nbsp;натуральным
+                  фермерским
+                  молоком — то, что нужно для расслабления после тяжёлого рабочего дня</p>
+                <div class="slider-list__item-price price">
+                  <div class="price__wrapper">
+                    <span class="price-old">295₽</span>
+                    <span class="price-new">225₽</span>
+                  </div>
+                  <a href="#" class="price__button">Заказать</a>
+                </div>
               </div>
             </div>
-          </div>
           </li>
           <li class="slider-list__item visually-hidden">
             <picture>
@@ -162,332 +163,344 @@
       </section>
     </section>
 
-    <section class="main__advantages advantages">
+    <section class="main__advantages advantages" data-test="features">
       <div class="advantages__wrapper">
-      <h2 class="advantages__title">Преимущества</h2>
-      <h3 class="advantages__subtitle"> Главные причины выбрать Drink2Go</h3>
-      <ul class="advantages__list">
-        <li class="advantages__item">
-          <svg class="advantages__item-image advantages__item-image--clock" width="50" height="56">
-            <use xlink:href="/icons/stack.svg#clock"></use>
-          </svg>
-          <p class="advantages__item-title">Скорость</p>
-          <p class="advantages__item-subtitle">Готовый напиток всегда под рукой — просто открой банку</p>
-        </li>
-        <li class="advantages__item">
-          <svg class="advantages__item-image advantages__item-image--badge" width="50" height="56">
-            <use xlink:href="/icons/stack.svg#badge"></use>
-          </svg>
-          <p class="advantages__item-title">Удобство</p>
-          <p class="advantages__item-subtitle">Легко помещается и в карман,<br>
-            и в маленькую сумочку</p>
-        </li>
-        <li class="advantages__item">
-          <svg class="advantages__item-image advantages__item-image--lightning" width="50" height="56">
-            <use xlink:href="/icons/stack.svg#lightning"></use>
-          </svg>
-          <p class="advantages__item-title">Бодрость</p>
-          <p class="advantages__item-subtitle">Сбалансированная доза кофеина даст мощный заряд энергии</p>
-        </li>
-        <li class="advantages__item">
-          <svg class="advantages__item-image advantages__item-image--leaf" width="50" height="56">
-            <use xlink:href="/icons/stack.svg#leaf"></use>
-          </svg>
-          <p class="advantages__item-title">Экологичность</p>
-          <p class="advantages__item-subtitle">Вся упаковка сделана<br>
-            из перерабатываемых материалов</p>
-        </li>
-      </ul>
-    </div>
+        <h2 class="advantages__title">Преимущества</h2>
+        <h3 class="advantages__subtitle"> Главные причины выбрать Drink2Go</h3>
+        <ul class="advantages__list">
+          <li class="advantages__item">
+            <svg class="advantages__item-image advantages__item-image--clock" width="50" height="56">
+              <use xlink:href="/icons/stack.svg#clock"></use>
+            </svg>
+            <div class="advantages__item-wrapper">
+              <p class="advantages__item-title">Скорость</p>
+              <p class="advantages__item-subtitle">Готовый напиток всегда под рукой — просто открой банку</p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__item-image advantages__item-image--badge" width="50" height="56">
+              <use xlink:href="/icons/stack.svg#badge"></use>
+            </svg>
+            <div class="advantages__item-wrapper">
+              <p class="advantages__item-title">Удобство</p>
+              <p class="advantages__item-subtitle">Легко помещается и в карман,
+                и в маленькую сумочку</p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__item-image advantages__item-image--lightning" width="50" height="56">
+              <use xlink:href="/icons/stack.svg#lightning"></use>
+            </svg>
+            <div class="advantages__item-wrapper">
+              <p class="advantages__item-title">Бодрость</p>
+              <p class="advantages__item-subtitle">Сбалансированная доза кофеина даст мощный заряд энергии</p>
+            </div>
+          </li>
+          <li class="advantages__item">
+            <svg class="advantages__item-image advantages__item-image--leaf" width="50" height="56">
+              <use xlink:href="/icons/stack.svg#leaf"></use>
+            </svg>
+            <div class="advantages__item-wrapper">
+              <p class="advantages__item-title">Экологичность</p>
+              <p class="advantages__item-subtitle">Вся упаковка сделана<br>из перерабатываемых материалов</p>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
 
     <section class="main__catalog catalog">
       <div class="catalog__wrapper">
-      <h2 class="catalog__title">Каталог</h2>
-      <h3 class="catalog__subtitle">Каталог кофейных напитков</h3>
-      <section class="catalog__filter filter">
-        <form class="filter__form">
+        <h2 class="catalog__title">Каталог</h2>
+        <h3 class="catalog__subtitle">Каталог кофейных напитков</h3>
+        <section class="catalog__filter filter">
+          <form class="filter__form">
 
-          <h2 class="filter__title visually-hidden">Фильтр напитков</h2>
-          <fieldset class="filter__price">
-            <legend class="filter__legend">Цена</legend>
-            <div class="filter__container">
-              <div id="slider"></div>
-              <div class="filter__container-input">
-                <input class="filter__price-min" type="text" placeholder="0">
-                <span class="filter__price-space">-</span>
-                <input class="filter__price-max" type="text" placeholder="900">
+            <h2 class="filter__title visually-hidden">Фильтр напитков</h2>
+            <fieldset class="filter__price">
+              <legend class="filter__legend">Цена</legend>
+              <div class="filter__container">
+                <div id="slider"></div>
+                <div class="filter__container-input">
+                  <input class="filter__price-min" type="text" placeholder="0">
+                  <span class="filter__price-space">-</span>
+                  <input class="filter__price-max" type="text" placeholder="900">
+                </div>
               </div>
-            </div>
-          </fieldset>
+            </fieldset>
 
-          <fieldset class="filter__variants">
-            <legend class="filter__variants-legend">Наличие молока</legend>
-            <ul class="filter__variants-list variants-list">
-              <li class="variants-list__item">
-                <input class="variants-list__item-input" id="radio-1" type="radio" name="Вид молока" value="Неважно"
-                  checked>
-                <label class="variants-list__item-description" for="radio-1">Неважно</label>
-              </li>
-              <li class="variants-list__item">
-                <input class="variants-list__item-input" id="radio-2" type="radio" name="Вид молока"
-                  value="Только животное">
-                <label class="variants-list__item-description" for="radio-2">Только животное</label>
-              </li>
-              <li class="variants-list__item">
-                <input class="variants-list__item-input" id="radio-3" type="radio" name="Вид молока"
-                  value="Только растительное">
-                <label class="variants-list__item-description" for="radio-3">Только растительное</label>
-              </li>
-              <li class="variants-list__item">
-                <input class="variants-list__item-input" id="radio-4" type="radio" name="Вид молока" value="Без молока"
-                  disabled>
-                <label class="variants-list__item-description" for="radio-4">Без молока</label>
-              </li>
-            </ul>
-          </fieldset>
+            <fieldset class="filter__variants">
+              <legend class="filter__variants-legend">Наличие молока</legend>
+              <ul class="filter__variants-list variants-list">
+                <li class="variants-list__item">
+                  <input class="variants-list__item-input" id="radio-1" type="radio" name="Вид молока" value="Неважно"
+                    checked>
+                  <label class="variants-list__item-description" for="radio-1">Неважно</label>
+                </li>
+                <li class="variants-list__item">
+                  <input class="variants-list__item-input" id="radio-2" type="radio" name="Вид молока"
+                    value="Только животное">
+                  <label class="variants-list__item-description" for="radio-2">Только животное</label>
+                </li>
+                <li class="variants-list__item">
+                  <input class="variants-list__item-input" id="radio-3" type="radio" name="Вид молока"
+                    value="Только растительное">
+                  <label class="variants-list__item-description" for="radio-3">Только растительное</label>
+                </li>
+                <li class="variants-list__item">
+                  <input class="variants-list__item-input" id="radio-4" type="radio" name="Вид молока"
+                    value="Без молока" disabled>
+                  <label class="variants-list__item-description" for="radio-4">Без молока</label>
+                </li>
+              </ul>
+            </fieldset>
 
-          <fieldset class="filter__country">
-            <legend class="filter__country-legend">Страна произрастания</legend>
-            <ul class="filter__country-list country-list">
-              <li class="country-list__item">
-                <input class="country-list__item-input" id="check-1" type="checkbox" value="Бразилия" name="Бразилия"
-                  checked>
-                <label class="country-list__item-description" for="check-1"></label>
-                <label class="country-list__item-name" for="check-1">Бразилия</label>
-              </li>
-              <li class="country-list__item">
-                <input class="country-list__item-input" id="check-2" type="checkbox" value="Эфиопия" name="Эфиопия">
-                <label class="country-list__item-description" for="check-2"></label>
-                <label class="country-list__item-name" for="check-2">Эфиопия</label>
-              </li>
-              <li class="country-list__item">
-                <input class="country-list__item-input" id="check-3" type="checkbox" value="Колумбия" name="Колумбия">
-                <label class="country-list__item-description" for="check-3"></label>
-                <label class="country-list__item-name" for="check-3">Колумбия</label>
-              </li>
-              <li class="country-list__item">
-                <input class="country-list__item-input" id="check-4" type="checkbox" value="Коста-Рика"
-                  name="Коста-Рика">
-                <label class="country-list__item-description" for="check-4"></label>
-                <label class="country-list__item-name" for="check-4">Коста-Рика</label>
-              </li>
-              <li class="country-list__item">
-                <input class="country-list__item-input" id="check-5" type="checkbox" value="Перу" name="Перу" disabled>
-                <label class="country-list__item-description" for="check-5"></label>
-                <label class="country-list__item-name" for="check-5">Перу</label>
-              </li>
-            </ul>
-          </fieldset>
+            <fieldset class="filter__country">
+              <legend class="filter__country-legend">Страна произрастания</legend>
+              <ul class="filter__country-list country-list">
+                <li class="country-list__item">
+                  <input class="country-list__item-input" id="check-1" type="checkbox" value="Бразилия" name="Бразилия"
+                    checked>
+                  <label class="country-list__item-description" for="check-1"></label>
+                  <label class="country-list__item-name" for="check-1">Бразилия</label>
+                </li>
+                <li class="country-list__item">
+                  <input class="country-list__item-input" id="check-2" type="checkbox" value="Эфиопия" name="Эфиопия">
+                  <label class="country-list__item-description" for="check-2"></label>
+                  <label class="country-list__item-name" for="check-2">Эфиопия</label>
+                </li>
+                <li class="country-list__item">
+                  <input class="country-list__item-input" id="check-3" type="checkbox" value="Колумбия" name="Колумбия">
+                  <label class="country-list__item-description" for="check-3"></label>
+                  <label class="country-list__item-name" for="check-3">Колумбия</label>
+                </li>
+                <li class="country-list__item">
+                  <input class="country-list__item-input" id="check-4" type="checkbox" value="Коста-Рика"
+                    name="Коста-Рика">
+                  <label class="country-list__item-description" for="check-4"></label>
+                  <label class="country-list__item-name" for="check-4">Коста-Рика</label>
+                </li>
+                <li class="country-list__item">
+                  <input class="country-list__item-input" id="check-5" type="checkbox" value="Перу" name="Перу"
+                    disabled>
+                  <label class="country-list__item-description" for="check-5"></label>
+                  <label class="country-list__item-name" for="check-5">Перу</label>
+                </li>
+              </ul>
+            </fieldset>
 
-          <button class="filter__button filter__button--apply" type="submit">Применить</button>
-          <button class="filter__button filter__button--reset" type="reset">Сбросить</button>
+            <button class="filter__button filter__button--apply" type="submit">Применить</button>
+            <button class="filter__button filter__button--reset" type="reset">Сбросить</button>
 
-        </form>
-      </section>
+          </form>
+        </section>
       </div>
-      </section>
+    </section>
 
-      <section class="main__catalog-menu catalog-menu">
+    <section class="main__catalog-menu catalog-menu">
 
-        <div class="catalog-menu-sort sort">
-          <span class="sort__title">Сортировка:</span>
-          <select class="sort__select">
-            <option class="sort__select-value">по умолчанию</option>
-          </select>
-        </div>
+      <div class="catalog-menu-sort sort">
+        <span class="sort__title">Сортировка:</span>
+        <select class="sort__select">
+          <option class="sort__select-value">по умолчанию</option>
+        </select>
+      </div>
 
-        <ul class="catalog-menu__list menu-list">
+      <ul class="catalog-menu__list menu-list">
 
-          <li class="menu-list__item item">
-            <div class="item__wrapper">
-              <a class="item-link" href="#">
-                <picture>
-                  <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                    srcset="images/white_can_desktop@1x.png 1x, images/white_can_desktop@2x.png 2x">
-                  <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                    srcset="images/white_can_tablet@1x.png 1x, images/white_can_tablet@2x.png 2x">
-                  <img class="item__link-image" src="images/white_can_mobile@1x.png"
-                    srcset="images/white_can_mobile@2x.png 2x" width="130" height="188" alt="Decaf Flat White">
-                </picture>
-              </a>
-              <a class="item__title" href="#">
-                <h3 class="item__title-name">Декаф Флэт Уайт</h3>
-              </a>
-              <p class="item__description">Кофе без кофеина из Эфиопии
-                <br>с натуральным фермерским молоком</p>
-              <div class="item__order">
-                <span class="item__order-price">225₽</span>
-                <a class="item__button" href="#">
-                  <svg class="item__button-icon" width="20" height="16">
-                    <use xlink:href="/icons/stack.svg#basket_order"></use>
-                  </svg>
-                  В корзину</a>
-              </div>
+        <li class="menu-list__item item">
+          <div class="item__wrapper">
+            <a class="item-link" href="#">
+              <picture>
+                <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
+                  srcset="images/white_can_desktop@1x.png 1x, images/white_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/white_can_tablet@1x.png 1x, images/white_can_tablet@2x.png 2x">
+                <img class="item__link-image" src="images/white_can_mobile@1x.png"
+                  srcset="images/white_can_mobile@2x.png 2x" width="130" height="188" alt="Decaf Flat White">
+              </picture>
+            </a>
+            <a class="item__title" href="#">
+              <h3 class="item__title-name">Декаф Флэт Уайт</h3>
+            </a>
+            <p class="item__description">Кофе без кофеина из Эфиопии
+              <br>с натуральным фермерским молоком
+            </p>
+            <div class="item__order">
+              <span class="item__order-price">225₽</span>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order"></use>
+                </svg>
+                В корзину</a>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="menu-list__item item">
-            <div class="item__wrapper">
-              <a class="item-link" href="#">
-                <picture>
-                  <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                    srcset="images/purple_can_desktop@1x.png 1x, images/purple_can_desktop@2x.png 2x">
-                  <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                    srcset="images/purple_can_tablet@1x.png 1x, images/purple_can_tablet@2x.png 2x">
-                  <img class="item__link-image" src="images/purple_can_mobile@1x.png" alt="Decaf Flat White">
-                </picture>
-              </a>
-              <a class="item__title" href="#">
-                <h3 class="item__title-name">Декаф Флэт Уайт</h3>
-              </a>
-              <p class="item__description">Кофе без кофеина из Эфиопии
-                <br>с натуральным фермерским молоком</p>
-              <div class="item__order">
-                <span class="item__order-price">225₽</span>
-                <a class="item__button" href="#">
-                  <svg class="item__button-icon" width="20" height="16">
-                    <use xlink:href="/icons/stack.svg#basket_order"></use>
-                  </svg>
-                  В корзину</a>
-              </div>
+        <li class="menu-list__item item">
+          <div class="item__wrapper">
+            <a class="item-link" href="#">
+              <picture>
+                <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
+                  srcset="images/purple_can_desktop@1x.png 1x, images/purple_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/purple_can_tablet@1x.png 1x, images/purple_can_tablet@2x.png 2x">
+                <img class="item__link-image" src="images/purple_can_mobile@1x.png" alt="Decaf Flat White">
+              </picture>
+            </a>
+            <a class="item__title" href="#">
+              <h3 class="item__title-name">Декаф Флэт Уайт</h3>
+            </a>
+            <p class="item__description">Кофе без кофеина из Эфиопии
+              <br>с натуральным фермерским молоком
+            </p>
+            <div class="item__order">
+              <span class="item__order-price">225₽</span>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order"></use>
+                </svg>
+                В корзину</a>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="menu-list__item item">
-            <div class="item__wrapper">
-              <a class="item-link" href="#">
-                <picture>
-                  <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                    srcset="images/black_can_desktop@1x.png 1x, images/black_can_desktop@2x.png 2x">
-                  <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                    srcset="images/black_can_tablet@1x.png 1x, images/black_can_tablet@2x.png 2x">
-                  <img class="item__link-image" src="images/black_can_mobile@1x.png" alt="Decaf Flat White">
-                </picture>
-              </a>
-              <a class="item__title" href="#">
-                <h3 class="item__title-name">Декаф Флэт Уайт</h3>
-              </a>
-              <p class="item__description">Кофе без кофеина из Эфиопии
-                <br>с натуральным фермерским молоком</p>
-              <div class="item__order">
-                <span class="item__order-price">225₽</span>
-                <a class="item__button" href="#">
-                  <svg class="item__button-icon" width="20" height="16">
-                    <use xlink:href="/icons/stack.svg#basket_order"></use>
-                  </svg>
-                  В корзину</a>
-              </div>
+        <li class="menu-list__item item">
+          <div class="item__wrapper">
+            <a class="item-link" href="#">
+              <picture>
+                <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
+                  srcset="images/black_can_desktop@1x.png 1x, images/black_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/black_can_tablet@1x.png 1x, images/black_can_tablet@2x.png 2x">
+                <img class="item__link-image" src="images/black_can_mobile@1x.png" alt="Decaf Flat White">
+              </picture>
+            </a>
+            <a class="item__title" href="#">
+              <h3 class="item__title-name">Декаф Флэт Уайт</h3>
+            </a>
+            <p class="item__description">Кофе без кофеина из Эфиопии
+              <br>с натуральным фермерским молоком
+            </p>
+            <div class="item__order">
+              <span class="item__order-price">225₽</span>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order"></use>
+                </svg>
+                В корзину</a>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="menu-list__item item">
-            <div class="item__wrapper">
-              <a class="item-link" href="#">
-                <picture>
-                  <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                    srcset="images/pink_can_desktop@1x.png 1x, images/pink_can_desktop@2x.png 2x">
-                  <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                    srcset="images/pink_can_tablet@1x.png 1x, images/pink_can_tablet@2x.png 2x">
-                  <img class="item__link-image" src="images/pink_can_mobile@1x.png" alt="Decaf Flat White">
-                </picture>
-              </a>
-              <a class="item__title" href="#">
-                <h3 class="item__title-name">Декаф Флэт Уайт</h3>
-              </a>
-              <p class="item__description">Кофе без кофеина из Эфиопии
-                <br>с натуральным фермерским молоком</p>
-              <div class="item__order">
-                <span class="item__order-price">225₽</span>
-                <a class="item__button" href="#">
-                  <svg class="item__button-icon" width="20" height="16">
-                    <use xlink:href="/icons/stack.svg#basket_order"></use>
-                  </svg>
-                  В корзину</a>
-              </div>
+        <li class="menu-list__item item">
+          <div class="item__wrapper">
+            <a class="item-link" href="#">
+              <picture>
+                <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
+                  srcset="images/pink_can_desktop@1x.png 1x, images/pink_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/pink_can_tablet@1x.png 1x, images/pink_can_tablet@2x.png 2x">
+                <img class="item__link-image" src="images/pink_can_mobile@1x.png" alt="Decaf Flat White">
+              </picture>
+            </a>
+            <a class="item__title" href="#">
+              <h3 class="item__title-name">Декаф Флэт Уайт</h3>
+            </a>
+            <p class="item__description">Кофе без кофеина из Эфиопии
+              <br>с натуральным фермерским молоком
+            </p>
+            <div class="item__order">
+              <span class="item__order-price">225₽</span>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order"></use>
+                </svg>
+                В корзину</a>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="menu-list__item item">
-            <div class="item__wrapper">
-              <a class="item-link" href="#">
-                <picture>
-                  <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                    srcset="images/brown_can_desktop@1x.png 1x, images/brown_can_desktop@2x.png 2x">
-                  <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                    srcset="images/brown_can_tablet@1x.png 1x, images/brown_can_tablet@2x.png 2x">
-                  <img class="item__link-image" src="images/brown_can_mobile@1x.png" alt="Decaf Flat White">
-                </picture>
-              </a>
-              <a class="item__title" href="#">
-                <h3 class="item__title-name">Декаф Флэт Уайт</h3>
-              </a>
-              <p class="item__description">Кофе без кофеина из Эфиопии
-                с натуральным фермерским молоком</p>
-              <div class="item__order">
-                <span class="item__order-price">225₽</span>
-                <a class="item__button" href="#">
-                  <svg class="item__button-icon" width="20" height="16">
-                    <use xlink:href="/icons/stack.svg#basket_order"></use>
-                  </svg>
-                  В корзину</a>
-              </div>
+        <li class="menu-list__item item">
+          <div class="item__wrapper">
+            <a class="item-link" href="#">
+              <picture>
+                <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
+                  srcset="images/brown_can_desktop@1x.png 1x, images/brown_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/brown_can_tablet@1x.png 1x, images/brown_can_tablet@2x.png 2x">
+                <img class="item__link-image" src="images/brown_can_mobile@1x.png" alt="Decaf Flat White">
+              </picture>
+            </a>
+            <a class="item__title" href="#">
+              <h3 class="item__title-name">Декаф Флэт Уайт</h3>
+            </a>
+            <p class="item__description">Кофе без кофеина из Эфиопии
+              с натуральным фермерским молоком</p>
+            <div class="item__order">
+              <span class="item__order-price">225₽</span>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order"></use>
+                </svg>
+                В корзину</a>
             </div>
-          </li>
+          </div>
+        </li>
 
-          <li class="menu-list__item item">
-            <div class="item__wrapper">
-              <a class="item-link" href="#">
-                <picture>
-                  <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
-                    srcset="images/milk_can_desktop@1x.png 1x, images/milk_can_desktop@2x.png 2x">
-                  <source width="130" height="188" type="image/png" media="(min-width: 768px)"
-                    srcset="images/milk_can_tablet@1x.png 1x, images/milk_can_tablet@2x.png 2x">
-                  <img class="item__link-image" src="images/milk_can_mobile@1x.png" alt="Decaf Flat White">
-                </picture>
-              </a>
-              <a class="item__title" href="#">
-                <h3 class="item__title-name">Декаф Флэт Уайт</h3>
-              </a>
-              <p class="item__description">Кофе без кофеина из Эфиопии
-                с натуральным фермерским молоком</p>
-              <div class="item__order">
-                <span class="item__order-price">225₽</span>
-                <a class="item__button" href="#">
-                  <svg class="item__button-icon" width="20" height="16">
-                    <use xlink:href="/icons/stack.svg#basket_order"></use>
-                  </svg>
-                  В корзину</a>
-              </div>
+        <li class="menu-list__item item">
+          <div class="item__wrapper">
+            <a class="item-link" href="#">
+              <picture>
+                <source width="130" height="188" type="image/png" media="(min-width: 1440px)"
+                  srcset="images/milk_can_desktop@1x.png 1x, images/milk_can_desktop@2x.png 2x">
+                <source width="130" height="188" type="image/png" media="(min-width: 768px)"
+                  srcset="images/milk_can_tablet@1x.png 1x, images/milk_can_tablet@2x.png 2x">
+                <img class="item__link-image" src="images/milk_can_mobile@1x.png" alt="Decaf Flat White">
+              </picture>
+            </a>
+            <a class="item__title" href="#">
+              <h3 class="item__title-name">Декаф Флэт Уайт</h3>
+            </a>
+            <p class="item__description">Кофе без кофеина из Эфиопии
+              с натуральным фермерским молоком</p>
+            <div class="item__order">
+              <span class="item__order-price">225₽</span>
+              <a class="item__button" href="#">
+                <svg class="item__button-icon" width="20" height="16">
+                  <use xlink:href="/icons/stack.svg#basket_order"></use>
+                </svg>
+                В корзину</a>
             </div>
-          </li>
-        </ul>
+          </div>
+        </li>
+      </ul>
 
-        <ul class="catalog-menu__pagination pagination">
+      <ul class="catalog-menu__pagination pagination">
 
-          <li class="pagination__item">
-            <a class="pagination__item-link pagination__item-link--back" href="#"></a>
-            <span class="pagination__item-back visually-hidden">Назад</span>
-          </li>
+        <li class="pagination__item">
+          <a class="pagination__item-link pagination__item-link--back" href="#"></a>
+          <span class="pagination__item-back visually-hidden">Назад</span>
+        </li>
 
-          <li class="pagination__item">
-            <a class="pagination__item-link" href="#">1</a>
-          </li>
+        <li class="pagination__item">
+          <a class="pagination__item-link" href="#">1</a>
+        </li>
 
-          <li class="pagination__item">
-            <a class="pagination__item-link pagination__item-link--current" href="#">2</a>
-          </li>
+        <li class="pagination__item">
+          <a class="pagination__item-link pagination__item-link--current" href="#">2</a>
+        </li>
 
-          <li class="pagination__item">
-            <a class="pagination__item-link" href="#">3</a>
-          </li>
+        <li class="pagination__item">
+          <a class="pagination__item-link" href="#">3</a>
+        </li>
 
-          <li class="pagination__item">
-            <a class="pagination__item-link pagination__item-link--forward" href="#"></a>
-            <span class="pagination__item-forward visually-hidden">Вперед</span>
-          </li>
+        <li class="pagination__item">
+          <a class="pagination__item-link pagination__item-link--forward" href="#"></a>
+          <span class="pagination__item-forward visually-hidden">Вперед</span>
+        </li>
 
-        </ul>
+      </ul>
     </section>
 
     <section>
@@ -602,13 +615,13 @@
       <div class="adress__wrapper">
         <p class="adress__title">Контакты</p>
         <div class="adress__wrapper-data">
-        <p class="adress__place"><svg class="adress__place-icon" width="20" height="16">
-            <use xlink:href="/icons/stack.svg#adress"></use>
-          </svg>Санкт-Петербург, набережная реки Карповки, дом 5</p>
-        <a class="adress__phone" href="tel:+79999999999">
-          <svg class="adress__phone-icon" width="20" height="16">
-            <use xlink:href="/icons/stack.svg#phone"></use>
-          </svg>+7 (999) 999-99-99</a>
+          <p class="adress__place"><svg class="adress__place-icon" width="20" height="16">
+              <use xlink:href="/icons/stack.svg#adress"></use>
+            </svg>Санкт-Петербург, набережная реки Карповки, дом 5</p>
+          <a class="adress__phone" href="tel:+79999999999">
+            <svg class="adress__phone-icon" width="20" height="16">
+              <use xlink:href="/icons/stack.svg#phone"></use>
+            </svg>+7 (999) 999-99-99</a>
         </div>
       </div>
     </address>
